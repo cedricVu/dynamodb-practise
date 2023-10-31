@@ -1,5 +1,5 @@
 import { DynamoDBClient, ListTablesCommand, QueryCommand  } from "@aws-sdk/client-dynamodb";
-
+//https://www.datacamp.com/tutorial/single-table-database-design-with-dynamodb
 // a client can be shared by different commands.
 const client = new DynamoDBClient({
     region: 'local',
